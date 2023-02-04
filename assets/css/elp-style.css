@@ -1,0 +1,33 @@
+div#elp {
+    display: flex;
+    flex-wrap:wrap ;
+	flex-flow: row wrap;
+}
+
+h3.elp-title {
+    padding: 0px;
+    margin: 0;
+}
+
+.elp-content {
+    width: 33.33%;
+    display: inline-grid;
+	margin-bottom:30px;
+}
+
+.categories_item {
+  flex: 1 0 20%;                
+  margin: 5px;                 
+  background-color: blue;
+}
+
+a.epl-cate-filter {
+    padding: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
